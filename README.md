@@ -31,3 +31,4 @@ and test data sets were merged together with rbind.
 Once merged, the data is filtered to comprise only of mean() and std() data. The
 arrange function is then used to apply a mean of the observations for each subject
 and activity pair.  The resulting dataset is sorted and stored in a tidy table text file.
+A copy of the tidy table txt file is available in this repository ("tidy_data.txt").
