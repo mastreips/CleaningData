@@ -59,7 +59,7 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-#Tidy Table variables and summaries you calculated, along with units, and any other relevant informati#on
+#Tidy Table variables and summaries I calculated, along with units, and any other relevant information
 
 Observations containing mean() and std() were selected for using tidyr select command. Averages of the resulting observations were made for each Subject/Activity pair using the command:
 
