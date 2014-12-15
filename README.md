@@ -8,7 +8,8 @@ Class Project Repository for Getting and Cleaning Data Course
  
  View(data_table)
 
-Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
+
 Author: Marcus A. Streips
 Date: December 15, 2014
 
