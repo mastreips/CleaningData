@@ -11,9 +11,10 @@ Class Project Repository for Getting and Cleaning Data Course
 # Getting and Cleaning Data Course Project
 
 Author: Marcus A. Streips
+
 Date: December 15, 2014
 
-Please set your working directory to the folder containing the data
+##Please set your working directory to the folder containing the data
 
 This script uses the dplyr and tidyr packages to reorganize, merge, filter
 and sort the UCI HAR data set in order to present tidy data set with the average
@@ -24,8 +25,9 @@ assigned to one of two groups (test and train).
 
 The data was loaded into R objects for each group (test and train) and converted
 to tidy tables.  The variables were renamed to allow for easy filtering and 
-transformed from rows to columns prior to merging with the data set.   
+transformed from rows to columns prior to merging with the data set.  The train
+and test data sets were merged together with rbind. 
  
-Once merged, the data is filtered to conprise only of mean() and std() data. The
+Once merged, the data is filtered to comprise only of mean() and std() data. The
 arrange function is then used to apply a mean of the observations for each subject
-and activity pair.  The resulting dataset is sotred in a tidy table text file.
+and activity pair.  The resulting dataset is sorted and stored in a tidy table text file.
