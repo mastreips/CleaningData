@@ -31,7 +31,7 @@ These signals were used to estimate variables of the feature vector for each pat
 - fBodyGyroMag
 - fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are (BOLD are used in tidy table): 
+The set of variables that were estimated from these signals are (**BOLD** are used in tidy table): 
 
 - **mean(): Mean value**
 - **std(): Standard deviation**
@@ -51,7 +51,7 @@ The set of variables that were estimated from these signals are (BOLD are used i
 - bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 - angle(): Angle between to vectors.
 
-Additional vectors obtained by averaging the signals in a signal window sample (BOLD are used in tidy table). These are used on the angle() variable:
+Additional vectors obtained by averaging the signals in a signal window sample (**BOLD** are used in tidy table). These are used on the angle() variable:
 
 - **gravityMean**
 - **tBodyAccMean**
